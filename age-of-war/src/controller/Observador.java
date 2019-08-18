@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model;
+package controller;
 
 /**
  *
  * @author rafae
  */
-public class Jogador {
-    private String nome;
-    private int pontos;
+public interface Observador {
+    void addObservadores(Observador obs);
+    void removerObservadores(Observador obs);
 }

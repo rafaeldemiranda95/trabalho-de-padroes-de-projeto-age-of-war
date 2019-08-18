@@ -10,5 +10,8 @@ package model;
  * @author rafae
  */
 public class Dado {
+  
     
+    String [] posicaoDado = new String [6];
+  
 }
