@@ -10,6 +10,5 @@ package controller;
  * @author rafae
  */
 public interface Observador {
-    void addObservadores(Observador obs);
-    void removerObservadores(Observador obs);
+
 }

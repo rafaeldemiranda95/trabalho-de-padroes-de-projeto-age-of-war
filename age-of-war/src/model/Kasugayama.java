@@ -9,10 +9,13 @@ package model;
  *
  * @author rafae
  */
-public class Kasugayama extends Carta{
-    
+public class Kasugayama extends Carta {
+
     public Kasugayama(String linhaEspecialBatalha, int linhasBatalha, int pontosCastelo, String nomeCastelo, String nomeCla, String iconeCla, int numeroCartasCla, int pontosCla) {
         super(linhaEspecialBatalha, linhasBatalha, pontosCastelo, nomeCastelo, nomeCla, iconeCla, numeroCartasCla, pontosCla);
     }
+
+    
+    
     
 }
