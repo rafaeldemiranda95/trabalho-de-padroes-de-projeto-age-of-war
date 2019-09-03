@@ -27,4 +27,11 @@ public class Controle {
         observadores.remove(obs);
         
     }
+
+    public void menuSelecaoNome() {
+
+            
+
+
+    }
 }

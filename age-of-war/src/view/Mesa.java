@@ -46,38 +46,37 @@ public class Mesa extends javax.swing.JFrame implements Observador {
 
     public void menuSelecaoJogadores() {
 
-        JOptionPane.showMessageDialog(this, "Teste");
+        controle.menuSelecaoNome();
+        
+        String jogador1 = JOptionPane.showInputDialog(null, "Nome do Jogador 1");
+     String jogador2 = JOptionPane.showInputDialog(null, "Nome do Jogador 2");
+     
 
     }
+    
+    
+    
+    
+    
+    
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        label2 = new java.awt.Label();
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Age of War ");
-
-        label2.setAlignment(java.awt.Label.CENTER);
-        label2.setForeground(new java.awt.Color(255, 255, 255));
-        label2.setText("Age of War");
+        setBackground(java.awt.Color.black);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(323, 323, 323)
-                .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(371, Short.MAX_VALUE))
+            .addGap(0, 902, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(397, Short.MAX_VALUE))
+            .addGap(0, 701, Short.MAX_VALUE)
         );
 
         pack();
@@ -87,6 +86,11 @@ public class Mesa extends javax.swing.JFrame implements Observador {
 
         Mesa mesa = Mesa.getInstance();
         
+        
+        mesa.menuSelecaoJogadores();
+        
+        
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Mesa().setVisible(true);
@@ -95,6 +99,5 @@ public class Mesa extends javax.swing.JFrame implements Observador {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private java.awt.Label label2;
     // End of variables declaration//GEN-END:variables
 }
