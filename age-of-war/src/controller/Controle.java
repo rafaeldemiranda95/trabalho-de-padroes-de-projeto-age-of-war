@@ -7,6 +7,7 @@ package controller;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -15,23 +16,34 @@ import java.util.List;
 public class Controle {
 
     private List<Observador> observadores = new ArrayList<>();
-    
+
     public void addObservadores(Observador obs) {
-        
+
         observadores.add(obs);
-        
+
     }
-    
+
     public void removerObservadores(Observador obs) {
-        
+
         observadores.remove(obs);
+
+    }
+
+    public void iniciarJogo() {
+
+        String jogador1 = JOptionPane.showInputDialog(null, "Nome do Jogador 1");
+        String jogador2 = JOptionPane.showInputDialog(null, "Nome do Jogador 2");
+
+        notificarIniciarJogo(jogador1, jogador2);
+
+    }
+
+    private void notificarIniciarJogo(String jogador1, String jogador2) {
+        
+        for (Observador observadore : observadores) {
+            observadore.notificarTelaIniciarJogo(jogador1,jogador2);
+        }
         
     }
 
-    public void menuSelecaoNome() {
-
-            
-
-
-    }
 }
