@@ -57,9 +57,24 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         matsumotoCarta.setEnabled(false);
         matsuyamaCarta.setEnabled(false);
         odaniCarta.setEnabled(false);
-        pontosJogador1.setEnabled(false);
         takahashiCarta.setEnabled(false);
+        azuchiCarta1.setVisible(false);
+        edoCarta1.setVisible(false);
+        gassantodaCarta1.setVisible(false);
+        gifuCarta1.setVisible(false);
+        inuyamaCarta1.setVisible(false);
+        kasugayamaCarta1.setVisible(false);
+        kitanoshoCarta1.setVisible(false);
+        kiyosuCarta1.setVisible(false);
+        kumamotoCarta1.setVisible(false);
+        marugameCarta1.setVisible(false);
+        matsumotoCarta1.setVisible(false);
+        matsuyamaCarta1.setVisible(false);
+        odaniCarta1.setVisible(false);
+        takahashiCarta1.setVisible(false);
+
   
+        
         
         
     }
@@ -268,16 +283,14 @@ public class Mesa extends javax.swing.JFrame implements Observador {
                                 .addComponent(jpanelDados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(912, 912, 912))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jpanelCartas, javax.swing.GroupLayout.PREFERRED_SIZE, 870, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jpanelCartasJogador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jpanelCartas, javax.swing.GroupLayout.PREFERRED_SIZE, 870, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jlabelCartasJogador01))
                                 .addGap(18, 18, 18)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(labelJogador2)
-                            .addComponent(pontosJogador2)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(121, 121, 121)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jlabelCartasJogador01)
-                            .addComponent(jpanelCartasJogador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(pontosJogador2))))
                 .addGap(171, 171, 171))
         );
         layout.setVerticalGroup(
@@ -295,14 +308,12 @@ public class Mesa extends javax.swing.JFrame implements Observador {
                         .addComponent(pontosJogador1)
                         .addComponent(pontosJogador2))
                     .addComponent(jpanelCartas, javax.swing.GroupLayout.PREFERRED_SIZE, 485, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 109, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 115, Short.MAX_VALUE)
                 .addComponent(jlabelCartasJogador01)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jpanelDados, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jpanelCartasJogador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(404, 404, 404))))
+                .addComponent(jpanelCartasJogador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(366, 366, 366)
+                .addComponent(jpanelDados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();

@@ -46,20 +46,17 @@
                               <EmptySpace min="-2" pref="912" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <Component id="jpanelCartas" min="-2" pref="870" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jpanelCartasJogador1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jpanelCartas" min="-2" pref="870" max="-2" attributes="0"/>
+                                  <Component id="jlabelCartasJogador01" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="labelJogador2" min="-2" max="-2" attributes="0"/>
                           <Component id="pontosJogador2" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jlabelCartasJogador01" min="-2" max="-2" attributes="0"/>
-                          <Component id="jpanelCartasJogador1" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -85,16 +82,12 @@
                   </Group>
                   <Component id="jpanelCartas" min="-2" pref="485" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="109" max="32767" attributes="0"/>
+              <EmptySpace pref="115" max="32767" attributes="0"/>
               <Component id="jlabelCartasJogador01" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jpanelDados" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="jpanelCartasJogador1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="404" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
+              <Component id="jpanelCartasJogador1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="366" max="-2" attributes="0"/>
+              <Component id="jpanelDados" min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
