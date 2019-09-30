@@ -143,13 +143,13 @@ public class Mesa extends javax.swing.JFrame implements Observador {
 
         jpanelCartas.setLayout(new java.awt.GridLayout(3, 5));
 
-        azuchiCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\azuchi.png")); // NOI18N
+        azuchiCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\azuchi.png")); // NOI18N
         jpanelCartas.add(azuchiCarta);
 
-        edoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\edo.png")); // NOI18N
+        edoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\edo.png")); // NOI18N
         jpanelCartas.add(edoCarta);
 
-        gassantodaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\gassantoda.png")); // NOI18N
+        gassantodaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\gassantoda.png")); // NOI18N
         gassantodaCarta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 gassantodaCartaActionPerformed(evt);
@@ -157,7 +157,7 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         });
         jpanelCartas.add(gassantodaCarta);
 
-        gifuCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\gifu.png")); // NOI18N
+        gifuCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\gifu.png")); // NOI18N
         gifuCarta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 gifuCartaActionPerformed(evt);
@@ -165,35 +165,35 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         });
         jpanelCartas.add(gifuCarta);
 
-        inuyamaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\inuyama.png")); // NOI18N
+        inuyamaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\inuyama.png")); // NOI18N
         jpanelCartas.add(inuyamaCarta);
 
-        kasugayamaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kasugayama.png")); // NOI18N
+        kasugayamaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kasugayama.png")); // NOI18N
         jpanelCartas.add(kasugayamaCarta);
 
-        kitanoshoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kitanosho.png")); // NOI18N
+        kitanoshoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kitanosho.png")); // NOI18N
         jpanelCartas.add(kitanoshoCarta);
 
-        kiyosuCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kiyosu.png")); // NOI18N
+        kiyosuCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kiyosu.png")); // NOI18N
         jpanelCartas.add(kiyosuCarta);
 
-        kumamotoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kumamoto.png")); // NOI18N
+        kumamotoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kumamoto.png")); // NOI18N
         jpanelCartas.add(kumamotoCarta);
 
-        marugameCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\marugame.png")); // NOI18N
+        marugameCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\marugame.png")); // NOI18N
         jpanelCartas.add(marugameCarta);
 
-        matsumotoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\matsumoto.png")); // NOI18N
+        matsumotoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\matsumoto.png")); // NOI18N
         jpanelCartas.add(matsumotoCarta);
 
-        matsuyamaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\matsuyama.png")); // NOI18N
+        matsuyamaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\matsuyama.png")); // NOI18N
         jpanelCartas.add(matsuyamaCarta);
 
-        odaniCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\odani.png")); // NOI18N
+        odaniCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\odani.png")); // NOI18N
         odaniCarta.setToolTipText("");
         jpanelCartas.add(odaniCarta);
 
-        takahashiCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\takahashi.png")); // NOI18N
+        takahashiCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\takahashi.png")); // NOI18N
         jpanelCartas.add(takahashiCarta);
 
         jpanelDados.setLayout(new java.awt.GridLayout(1, 0));
@@ -203,7 +203,6 @@ public class Mesa extends javax.swing.JFrame implements Observador {
 
         jpanelCartasJogador1.setLayout(new java.awt.GridLayout(3, 5));
 
-        takahashiCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\takahashi.png")); // NOI18N
         takahashiCarta1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 takahashiCarta1ActionPerformed(evt);
@@ -211,26 +210,14 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         });
         jpanelCartasJogador1.add(takahashiCarta1);
 
-        odaniCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\odani.png")); // NOI18N
         odaniCarta1.setToolTipText("");
         jpanelCartasJogador1.add(odaniCarta1);
-
-        matsuyamaCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\matsuyama.png")); // NOI18N
         jpanelCartasJogador1.add(matsuyamaCarta1);
-
-        matsumotoCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\matsumoto.png")); // NOI18N
         jpanelCartasJogador1.add(matsumotoCarta1);
-
-        kasugayamaCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kasugayama.png")); // NOI18N
         jpanelCartasJogador1.add(kasugayamaCarta1);
-
-        azuchiCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\azuchi.png")); // NOI18N
         jpanelCartasJogador1.add(azuchiCarta1);
-
-        edoCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\edo.png")); // NOI18N
         jpanelCartasJogador1.add(edoCarta1);
 
-        gassantodaCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\gassantoda.png")); // NOI18N
         gassantodaCarta1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 gassantodaCarta1ActionPerformed(evt);
@@ -238,27 +225,16 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         });
         jpanelCartasJogador1.add(gassantodaCarta1);
 
-        gifuCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\gifu.png")); // NOI18N
         gifuCarta1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 gifuCarta1ActionPerformed(evt);
             }
         });
         jpanelCartasJogador1.add(gifuCarta1);
-
-        inuyamaCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\inuyama.png")); // NOI18N
         jpanelCartasJogador1.add(inuyamaCarta1);
-
-        marugameCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\marugame.png")); // NOI18N
         jpanelCartasJogador1.add(marugameCarta1);
-
-        kumamotoCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kumamoto.png")); // NOI18N
         jpanelCartasJogador1.add(kumamotoCarta1);
-
-        kiyosuCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kiyosu.png")); // NOI18N
         jpanelCartasJogador1.add(kiyosuCarta1);
-
-        kitanoshoCarta1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kitanosho.png")); // NOI18N
         jpanelCartasJogador1.add(kitanoshoCarta1);
 
         jlabelCartasJogador01.setText("Cartas do Jogador 1");

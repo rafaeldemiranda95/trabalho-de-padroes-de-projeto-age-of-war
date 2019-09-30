@@ -131,21 +131,21 @@
         <Component class="javax.swing.JButton" name="azuchiCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\azuchi.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\azuchi.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="edoCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\edo.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\edo.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="gassantodaCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\gassantoda.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\gassantoda.png"/>
             </Property>
           </Properties>
           <Events>
@@ -155,7 +155,7 @@
         <Component class="javax.swing.JButton" name="gifuCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\gifu.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\gifu.png"/>
             </Property>
           </Properties>
           <Events>
@@ -165,63 +165,63 @@
         <Component class="javax.swing.JButton" name="inuyamaCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\inuyama.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\inuyama.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="kasugayamaCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kasugayama.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kasugayama.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="kitanoshoCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kitanosho.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kitanosho.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="kiyosuCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kiyosu.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kiyosu.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="kumamotoCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kumamoto.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kumamoto.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="marugameCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\marugame.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\marugame.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="matsumotoCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\matsumoto.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\matsumoto.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="matsuyamaCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\matsuyama.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\matsuyama.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="odaniCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\odani.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\odani.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
@@ -229,7 +229,7 @@
         <Component class="javax.swing.JButton" name="takahashiCarta">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\takahashi.png"/>
+              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\takahashi.png"/>
             </Property>
           </Properties>
         </Component>
@@ -257,112 +257,44 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JButton" name="takahashiCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\takahashi.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="takahashiCarta1ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="odaniCarta1">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\odani.png"/>
-            </Property>
             <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="matsuyamaCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\matsuyama.png"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="matsumotoCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\matsumoto.png"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="kasugayamaCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kasugayama.png"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="azuchiCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\azuchi.png"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="edoCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\edo.png"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="gassantodaCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\gassantoda.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gassantodaCarta1ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="gifuCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\gifu.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gifuCarta1ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="inuyamaCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\inuyama.png"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="marugameCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\marugame.png"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="kumamotoCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kumamoto.png"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="kiyosuCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kiyosu.png"/>
-            </Property>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="kitanoshoCarta1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\rafae\Desktop\trabalho-de-padroes-de-projeto-age-of-war\age-of-war\img\cartas\kitanosho.png"/>
-            </Property>
-          </Properties>
         </Component>
       </SubComponents>
     </Container>
