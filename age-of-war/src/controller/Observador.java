@@ -12,8 +12,10 @@ import model.Jogador;
  * @author rafae
  */
 public interface Observador {
+//
+//    public void notificarTelaIniciarJogo(String jogador1, String jogador2);
 
-    public void notificarTelaIniciarJogo(String jogador1, String jogador2);
+    public void notificarTelaIniciarJogo(String jogador1, String jogador2, int pontosPlayer1, int pontosPlayer2);
 
 
 

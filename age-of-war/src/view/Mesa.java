@@ -259,14 +259,15 @@ public class Mesa extends javax.swing.JFrame implements Observador {
     private javax.swing.JButton takahashiCarta;
     // End of variables declaration//GEN-END:variables
 
+
+
     @Override
-    public void notificarTelaIniciarJogo(String jogador1, String jogador2) {
-
+    public void notificarTelaIniciarJogo(String jogador1, String jogador2, int pontosPlayer1, int pontosPlayer2) {
         
-
         labelJogador1.setText(jogador1);
         labelJogador2.setText(jogador2);
-
+        pontosJogador1.setText(pontosPlayer1+"");
+        pontosJogador2.setText(pontosPlayer2+"");
         
         
         
@@ -289,9 +290,6 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         pontosJogador1.setEnabled(true);
         takahashiCarta.setEnabled(true);
         botaoIniciar.setVisible(false);
-
-        
-
     }
 
 
