@@ -20,6 +20,7 @@ public class Mesa extends javax.swing.JFrame implements Observador {
     private Mesa() {
 
         iniciar();
+        this.setExtendedState(MAXIMIZED_BOTH);   
         
 
     }
@@ -94,8 +95,12 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Age of War ");
         setBackground(java.awt.Color.black);
+        setSize(new java.awt.Dimension(800, 800));
+        getContentPane().setLayout(null);
 
         labelJogador1.setText("Jogador 01");
+        getContentPane().add(labelJogador1);
+        labelJogador1.setBounds(180, 110, 64, 20);
 
         botaoIniciar.setText("Iniciar jogo");
         botaoIniciar.addActionListener(new java.awt.event.ActionListener() {
@@ -103,12 +108,20 @@ public class Mesa extends javax.swing.JFrame implements Observador {
                 botaoIniciarActionPerformed(evt);
             }
         });
+        getContentPane().add(botaoIniciar);
+        botaoIniciar.setBounds(540, 30, 150, 32);
 
         labelJogador2.setText("Jogador 2");
+        getContentPane().add(labelJogador2);
+        labelJogador2.setBounds(1000, 100, 57, 20);
 
         pontosJogador1.setText("Pontuação");
+        getContentPane().add(pontosJogador1);
+        pontosJogador1.setBounds(180, 140, 61, 20);
 
         pontosJogador2.setText("Pontuação");
+        getContentPane().add(pontosJogador2);
+        pontosJogador2.setBounds(1000, 130, 61, 20);
 
         jpanelCartas.setLayout(new java.awt.GridLayout(3, 5));
 
@@ -175,49 +188,12 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         takahashiCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/takahashi.png"))); // NOI18N
         jpanelCartas.add(takahashiCarta);
 
-        jpanelDados.setLayout(new java.awt.GridLayout(1, 0));
+        getContentPane().add(jpanelCartas);
+        jpanelCartas.setBounds(170, 180, 900, 580);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(94, 94, 94)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(labelJogador1)
-                    .addComponent(pontosJogador1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jpanelCartas, javax.swing.GroupLayout.PREFERRED_SIZE, 956, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(412, 412, 412)
-                        .addComponent(botaoIniciar))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jpanelDados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(974, 974, 974)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(labelJogador2)
-                            .addComponent(pontosJogador2))))
-                .addGap(171, 171, 171))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(botaoIniciar)
-                .addGap(39, 39, 39)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(labelJogador1)
-                    .addComponent(labelJogador2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pontosJogador1)
-                    .addComponent(pontosJogador2))
-                .addGap(86, 86, 86)
-                .addComponent(jpanelCartas, javax.swing.GroupLayout.PREFERRED_SIZE, 621, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 351, Short.MAX_VALUE)
-                .addComponent(jpanelDados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
+        jpanelDados.setLayout(new java.awt.GridLayout(1, 0));
+        getContentPane().add(jpanelDados);
+        jpanelDados.setBounds(179, 868, 0, 0);
 
         pack();
         setLocationRelativeTo(null);

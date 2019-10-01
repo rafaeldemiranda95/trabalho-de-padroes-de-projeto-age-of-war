@@ -43,6 +43,8 @@ public class Controle {
         player2.setNome(jogador2); 
         
         
+        
+        
         notificarIniciarJogo(jogador1, jogador2);
 
     }
