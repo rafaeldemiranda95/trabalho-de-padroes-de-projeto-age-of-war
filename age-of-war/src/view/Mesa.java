@@ -58,22 +58,8 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         matsuyamaCarta.setEnabled(false);
         odaniCarta.setEnabled(false);
         takahashiCarta.setEnabled(false);
-        azuchiCarta1.setVisible(false);
-        edoCarta1.setVisible(false);
-        gassantodaCarta1.setVisible(false);
-        gifuCarta1.setVisible(false);
-        inuyamaCarta1.setVisible(false);
-        kasugayamaCarta1.setVisible(false);
-        kitanoshoCarta1.setVisible(false);
-        kiyosuCarta1.setVisible(false);
-        kumamotoCarta1.setVisible(false);
-        marugameCarta1.setVisible(false);
-        matsumotoCarta1.setVisible(false);
-        matsuyamaCarta1.setVisible(false);
-        odaniCarta1.setVisible(false);
-        takahashiCarta1.setVisible(false);
 
-  
+        
         
         
         
@@ -104,23 +90,6 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         odaniCarta = new javax.swing.JButton();
         takahashiCarta = new javax.swing.JButton();
         jpanelDados = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jpanelCartasJogador1 = new javax.swing.JPanel();
-        takahashiCarta1 = new javax.swing.JButton();
-        odaniCarta1 = new javax.swing.JButton();
-        matsuyamaCarta1 = new javax.swing.JButton();
-        matsumotoCarta1 = new javax.swing.JButton();
-        kasugayamaCarta1 = new javax.swing.JButton();
-        azuchiCarta1 = new javax.swing.JButton();
-        edoCarta1 = new javax.swing.JButton();
-        gassantodaCarta1 = new javax.swing.JButton();
-        gifuCarta1 = new javax.swing.JButton();
-        inuyamaCarta1 = new javax.swing.JButton();
-        marugameCarta1 = new javax.swing.JButton();
-        kumamotoCarta1 = new javax.swing.JButton();
-        kiyosuCarta1 = new javax.swing.JButton();
-        kitanoshoCarta1 = new javax.swing.JButton();
-        jlabelCartasJogador01 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Age of War ");
@@ -143,13 +112,23 @@ public class Mesa extends javax.swing.JFrame implements Observador {
 
         jpanelCartas.setLayout(new java.awt.GridLayout(3, 5));
 
-        azuchiCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\azuchi.png")); // NOI18N
+        azuchiCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/azuchi.png"))); // NOI18N
+        azuchiCarta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                azuchiCartaActionPerformed(evt);
+            }
+        });
         jpanelCartas.add(azuchiCarta);
 
-        edoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\edo.png")); // NOI18N
+        edoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/edo.png"))); // NOI18N
+        edoCarta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                edoCartaActionPerformed(evt);
+            }
+        });
         jpanelCartas.add(edoCarta);
 
-        gassantodaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\gassantoda.png")); // NOI18N
+        gassantodaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/gassantoda.png"))); // NOI18N
         gassantodaCarta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 gassantodaCartaActionPerformed(evt);
@@ -157,7 +136,7 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         });
         jpanelCartas.add(gassantodaCarta);
 
-        gifuCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\gifu.png")); // NOI18N
+        gifuCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/gifu.png"))); // NOI18N
         gifuCarta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 gifuCartaActionPerformed(evt);
@@ -165,79 +144,38 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         });
         jpanelCartas.add(gifuCarta);
 
-        inuyamaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\inuyama.png")); // NOI18N
+        inuyamaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/inuyama.png"))); // NOI18N
         jpanelCartas.add(inuyamaCarta);
 
-        kasugayamaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kasugayama.png")); // NOI18N
+        kasugayamaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kasugayama.png"))); // NOI18N
         jpanelCartas.add(kasugayamaCarta);
 
-        kitanoshoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kitanosho.png")); // NOI18N
+        kitanoshoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kitanosho.png"))); // NOI18N
         jpanelCartas.add(kitanoshoCarta);
 
-        kiyosuCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kiyosu.png")); // NOI18N
+        kiyosuCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kiyosu.png"))); // NOI18N
         jpanelCartas.add(kiyosuCarta);
 
-        kumamotoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\kumamoto.png")); // NOI18N
+        kumamotoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kumamoto.png"))); // NOI18N
         jpanelCartas.add(kumamotoCarta);
 
-        marugameCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\marugame.png")); // NOI18N
+        marugameCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/marugame.png"))); // NOI18N
         jpanelCartas.add(marugameCarta);
 
-        matsumotoCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\matsumoto.png")); // NOI18N
+        matsumotoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/matsumoto.png"))); // NOI18N
         jpanelCartas.add(matsumotoCarta);
 
-        matsuyamaCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\matsuyama.png")); // NOI18N
+        matsuyamaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/matsuyama.png"))); // NOI18N
         jpanelCartas.add(matsuyamaCarta);
 
-        odaniCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\odani.png")); // NOI18N
+        odaniCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/odani.png"))); // NOI18N
         odaniCarta.setToolTipText("");
         jpanelCartas.add(odaniCarta);
 
-        takahashiCarta.setIcon(new javax.swing.ImageIcon("C:\\Users\\rafae\\Desktop\\trabalho-de-padroes-de-projeto-age-of-war\\trabalho-de-padroes-de-projeto-age-of-war\\age-of-war\\img\\cartas\\takahashi.png")); // NOI18N
+        takahashiCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/takahashi.png"))); // NOI18N
         jpanelCartas.add(takahashiCarta);
 
         jpanelDados.setLayout(new java.awt.GridLayout(1, 0));
-
-        jButton1.setText("jButton1");
-        jpanelDados.add(jButton1);
-
-        jpanelCartasJogador1.setLayout(new java.awt.GridLayout(3, 5));
-
-        takahashiCarta1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                takahashiCarta1ActionPerformed(evt);
-            }
-        });
-        jpanelCartasJogador1.add(takahashiCarta1);
-
-        odaniCarta1.setToolTipText("");
-        jpanelCartasJogador1.add(odaniCarta1);
-        jpanelCartasJogador1.add(matsuyamaCarta1);
-        jpanelCartasJogador1.add(matsumotoCarta1);
-        jpanelCartasJogador1.add(kasugayamaCarta1);
-        jpanelCartasJogador1.add(azuchiCarta1);
-        jpanelCartasJogador1.add(edoCarta1);
-
-        gassantodaCarta1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gassantodaCarta1ActionPerformed(evt);
-            }
-        });
-        jpanelCartasJogador1.add(gassantodaCarta1);
-
-        gifuCarta1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gifuCarta1ActionPerformed(evt);
-            }
-        });
-        jpanelCartasJogador1.add(gifuCarta1);
-        jpanelCartasJogador1.add(inuyamaCarta1);
-        jpanelCartasJogador1.add(marugameCarta1);
-        jpanelCartasJogador1.add(kumamotoCarta1);
-        jpanelCartasJogador1.add(kiyosuCarta1);
-        jpanelCartasJogador1.add(kitanoshoCarta1);
-
-        jlabelCartasJogador01.setText("Cartas do Jogador 1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -248,22 +186,15 @@ public class Mesa extends javax.swing.JFrame implements Observador {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(labelJogador1)
                     .addComponent(pontosJogador1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jpanelCartas, javax.swing.GroupLayout.PREFERRED_SIZE, 956, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(412, 412, 412)
                         .addComponent(botaoIniciar))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jpanelDados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(912, 912, 912))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jpanelCartasJogador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jpanelCartas, javax.swing.GroupLayout.PREFERRED_SIZE, 870, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jlabelCartasJogador01))
-                                .addGap(18, 18, 18)))
+                        .addComponent(jpanelDados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(974, 974, 974)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(labelJogador2)
                             .addComponent(pontosJogador2))))
@@ -279,16 +210,12 @@ public class Mesa extends javax.swing.JFrame implements Observador {
                     .addComponent(labelJogador1)
                     .addComponent(labelJogador2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(pontosJogador1)
-                        .addComponent(pontosJogador2))
-                    .addComponent(jpanelCartas, javax.swing.GroupLayout.PREFERRED_SIZE, 485, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 115, Short.MAX_VALUE)
-                .addComponent(jlabelCartasJogador01)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jpanelCartasJogador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(366, 366, 366)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(pontosJogador1)
+                    .addComponent(pontosJogador2))
+                .addGap(86, 86, 86)
+                .addComponent(jpanelCartas, javax.swing.GroupLayout.PREFERRED_SIZE, 621, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 351, Short.MAX_VALUE)
                 .addComponent(jpanelDados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -313,17 +240,13 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         // TODO add your handling code here:
     }//GEN-LAST:event_gifuCartaActionPerformed
 
-    private void gassantodaCarta1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gassantodaCarta1ActionPerformed
+    private void azuchiCartaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_azuchiCartaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_gassantodaCarta1ActionPerformed
+    }//GEN-LAST:event_azuchiCartaActionPerformed
 
-    private void gifuCarta1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gifuCarta1ActionPerformed
+    private void edoCartaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edoCartaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_gifuCarta1ActionPerformed
-
-    private void takahashiCarta1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_takahashiCarta1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_takahashiCarta1ActionPerformed
+    }//GEN-LAST:event_edoCartaActionPerformed
 
     public static void main(String args[]) {
 
@@ -338,43 +261,26 @@ public class Mesa extends javax.swing.JFrame implements Observador {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton azuchiCarta;
-    private javax.swing.JButton azuchiCarta1;
     private javax.swing.JButton botaoIniciar;
     private javax.swing.JButton edoCarta;
-    private javax.swing.JButton edoCarta1;
     private javax.swing.JButton gassantodaCarta;
-    private javax.swing.JButton gassantodaCarta1;
     private javax.swing.JButton gifuCarta;
-    private javax.swing.JButton gifuCarta1;
     private javax.swing.JButton inuyamaCarta;
-    private javax.swing.JButton inuyamaCarta1;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jlabelCartasJogador01;
     private javax.swing.JPanel jpanelCartas;
-    private javax.swing.JPanel jpanelCartasJogador1;
     private javax.swing.JPanel jpanelDados;
     private javax.swing.JButton kasugayamaCarta;
-    private javax.swing.JButton kasugayamaCarta1;
     private javax.swing.JButton kitanoshoCarta;
-    private javax.swing.JButton kitanoshoCarta1;
     private javax.swing.JButton kiyosuCarta;
-    private javax.swing.JButton kiyosuCarta1;
     private javax.swing.JButton kumamotoCarta;
-    private javax.swing.JButton kumamotoCarta1;
     private javax.swing.JLabel labelJogador1;
     private javax.swing.JLabel labelJogador2;
     private javax.swing.JButton marugameCarta;
-    private javax.swing.JButton marugameCarta1;
     private javax.swing.JButton matsumotoCarta;
-    private javax.swing.JButton matsumotoCarta1;
     private javax.swing.JButton matsuyamaCarta;
-    private javax.swing.JButton matsuyamaCarta1;
     private javax.swing.JButton odaniCarta;
-    private javax.swing.JButton odaniCarta1;
     private javax.swing.JLabel pontosJogador1;
     private javax.swing.JLabel pontosJogador2;
     private javax.swing.JButton takahashiCarta;
-    private javax.swing.JButton takahashiCarta1;
     // End of variables declaration//GEN-END:variables
 
     @Override

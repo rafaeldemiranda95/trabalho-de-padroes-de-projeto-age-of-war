@@ -8,6 +8,7 @@ package controller;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
+import model.Jogador;
 
 /**
  *
@@ -34,6 +35,14 @@ public class Controle {
         String jogador1 = JOptionPane.showInputDialog(null, "Nome do Jogador 1");
         String jogador2 = JOptionPane.showInputDialog(null, "Nome do Jogador 2");
 
+        
+        Jogador player1 = new Jogador();
+        Jogador player2 = new Jogador();
+        
+        player1.setNome(jogador1);
+        player2.setNome(jogador2); 
+        
+        
         notificarIniciarJogo(jogador1, jogador2);
 
     }
