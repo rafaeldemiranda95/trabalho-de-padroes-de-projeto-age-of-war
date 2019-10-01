@@ -7,6 +7,7 @@ package view;
 
 import controller.Controle;
 import controller.Observador;
+import javax.swing.JButton;
 
 
 /**
@@ -59,6 +60,7 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         matsuyamaCarta.setEnabled(false);
         odaniCarta.setEnabled(false);
         takahashiCarta.setEnabled(false);
+        botaoFinalizarPartida.setEnabled(false);
 
         
         
@@ -90,7 +92,7 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         matsuyamaCarta = new javax.swing.JButton();
         odaniCarta = new javax.swing.JButton();
         takahashiCarta = new javax.swing.JButton();
-        jpanelDados = new javax.swing.JPanel();
+        botaoFinalizarPartida = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Age of War ");
@@ -109,7 +111,7 @@ public class Mesa extends javax.swing.JFrame implements Observador {
             }
         });
         getContentPane().add(botaoIniciar);
-        botaoIniciar.setBounds(540, 30, 150, 32);
+        botaoIniciar.setBounds(530, 10, 150, 32);
 
         labelJogador2.setText("Jogador 2");
         getContentPane().add(labelJogador2);
@@ -191,9 +193,9 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         getContentPane().add(jpanelCartas);
         jpanelCartas.setBounds(170, 180, 900, 580);
 
-        jpanelDados.setLayout(new java.awt.GridLayout(1, 0));
-        getContentPane().add(jpanelDados);
-        jpanelDados.setBounds(179, 868, 0, 0);
+        botaoFinalizarPartida.setText("Finalizar");
+        getContentPane().add(botaoFinalizarPartida);
+        botaoFinalizarPartida.setBounds(530, 50, 150, 32);
 
         pack();
         setLocationRelativeTo(null);
@@ -237,13 +239,13 @@ public class Mesa extends javax.swing.JFrame implements Observador {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton azuchiCarta;
+    private javax.swing.JButton botaoFinalizarPartida;
     private javax.swing.JButton botaoIniciar;
     private javax.swing.JButton edoCarta;
     private javax.swing.JButton gassantodaCarta;
     private javax.swing.JButton gifuCarta;
     private javax.swing.JButton inuyamaCarta;
     private javax.swing.JPanel jpanelCartas;
-    private javax.swing.JPanel jpanelDados;
     private javax.swing.JButton kasugayamaCarta;
     private javax.swing.JButton kitanoshoCarta;
     private javax.swing.JButton kiyosuCarta;
@@ -289,7 +291,13 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         odaniCarta.setEnabled(true);
         pontosJogador1.setEnabled(true);
         takahashiCarta.setEnabled(true);
-        botaoIniciar.setVisible(false);
+        botaoIniciar.setEnabled(false);
+        botaoFinalizarPartida.setEnabled(true);
+       
+        
+        
+        
+        
     }
 
 

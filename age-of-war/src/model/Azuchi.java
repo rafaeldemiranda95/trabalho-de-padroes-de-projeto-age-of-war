@@ -15,4 +15,6 @@ public class Azuchi extends Carta{
         super(linhaEspecialBatalha, linhasBatalha, pontosCastelo, nomeCastelo, nomeCla, iconeCla, numeroCartasCla, pontosCla);
     }
     
+    
+   
 }

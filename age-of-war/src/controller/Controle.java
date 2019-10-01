@@ -34,15 +34,13 @@ public class Controle {
 
         String jogador1 = JOptionPane.showInputDialog(null, "Nome do Jogador 1");
         String jogador2 = JOptionPane.showInputDialog(null, "Nome do Jogador 2");
-            
-       
-
-
+     
         
         Jogador player1 = new Jogador();
         Jogador player2 = new Jogador();
         
-        
+        player1.setVezJogada(true);
+        player1.setVezJogada(false);
         
         player1.setNome(jogador1);
         player2.setNome(jogador2); 
@@ -54,6 +52,9 @@ public class Controle {
         player2.setPontos(pontosPlayer2);
         
         System.out.println(player1.getPontos());
+        
+        
+        
         
         notificarIniciarJogo(jogador1, jogador2, pontosPlayer1, pontosPlayer2);
 

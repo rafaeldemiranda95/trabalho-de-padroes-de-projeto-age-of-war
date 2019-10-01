@@ -12,6 +12,38 @@ package model;
 public class Dado {
   
     
-    String [] posicaoDado = new String [6];
+//    String [] posicaoDado = new String [6];
   
+    
+    private String caminhoImg;
+    private String nome;
+
+    public Dado(String caminhoImg, String nome) {
+        this.caminhoImg = caminhoImg;
+        this.nome = nome;
+    }
+
+    public Dado() {
+    }
+
+    public String getCaminhoImg() {
+        return caminhoImg;
+    }
+
+    public void setCaminhoImg(String caminhoImg) {
+        this.caminhoImg = caminhoImg;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+    
+    
+    
+    
 }
