@@ -69,137 +69,137 @@ public class Mesa extends javax.swing.JFrame implements Observador {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+        // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+        private void initComponents() {
 
-        labelJogador1 = new javax.swing.JLabel();
-        botaoIniciar = new javax.swing.JButton();
-        labelJogador2 = new javax.swing.JLabel();
-        pontosJogador1 = new javax.swing.JLabel();
-        pontosJogador2 = new javax.swing.JLabel();
-        jpanelCartas = new javax.swing.JPanel();
-        azuchiCarta = new javax.swing.JButton();
-        edoCarta = new javax.swing.JButton();
-        gassantodaCarta = new javax.swing.JButton();
-        gifuCarta = new javax.swing.JButton();
-        inuyamaCarta = new javax.swing.JButton();
-        kasugayamaCarta = new javax.swing.JButton();
-        kitanoshoCarta = new javax.swing.JButton();
-        kiyosuCarta = new javax.swing.JButton();
-        kumamotoCarta = new javax.swing.JButton();
-        marugameCarta = new javax.swing.JButton();
-        matsumotoCarta = new javax.swing.JButton();
-        matsuyamaCarta = new javax.swing.JButton();
-        odaniCarta = new javax.swing.JButton();
-        takahashiCarta = new javax.swing.JButton();
-        botaoFinalizarPartida = new javax.swing.JButton();
+                labelJogador1 = new javax.swing.JLabel();
+                botaoIniciar = new javax.swing.JButton();
+                botaoFinalizarPartida = new javax.swing.JButton();
+                labelJogador2 = new javax.swing.JLabel();
+                pontosJogador1 = new javax.swing.JLabel();
+                pontosJogador2 = new javax.swing.JLabel();
+                jpanelCartas = new javax.swing.JPanel();
+                azuchiCarta = new javax.swing.JButton();
+                edoCarta = new javax.swing.JButton();
+                gassantodaCarta = new javax.swing.JButton();
+                gifuCarta = new javax.swing.JButton();
+                inuyamaCarta = new javax.swing.JButton();
+                kasugayamaCarta = new javax.swing.JButton();
+                kitanoshoCarta = new javax.swing.JButton();
+                kiyosuCarta = new javax.swing.JButton();
+                kumamotoCarta = new javax.swing.JButton();
+                marugameCarta = new javax.swing.JButton();
+                matsumotoCarta = new javax.swing.JButton();
+                matsuyamaCarta = new javax.swing.JButton();
+                odaniCarta = new javax.swing.JButton();
+                takahashiCarta = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Age of War ");
-        setBackground(java.awt.Color.black);
-        setSize(new java.awt.Dimension(800, 800));
-        getContentPane().setLayout(null);
+                setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+                setTitle("Age of War ");
+                setBackground(java.awt.Color.black);
+                setSize(new java.awt.Dimension(800, 800));
+                getContentPane().setLayout(null);
 
-        labelJogador1.setText("Jogador 01");
-        getContentPane().add(labelJogador1);
-        labelJogador1.setBounds(180, 110, 64, 20);
+                labelJogador1.setText("Jogador 01");
+                getContentPane().add(labelJogador1);
+                labelJogador1.setBounds(180, 110, 68, 20);
 
-        botaoIniciar.setText("Iniciar jogo");
-        botaoIniciar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botaoIniciarActionPerformed(evt);
-            }
-        });
-        getContentPane().add(botaoIniciar);
-        botaoIniciar.setBounds(530, 10, 150, 32);
+                botaoIniciar.setText("Iniciar jogo");
+                botaoIniciar.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                botaoIniciarActionPerformed(evt);
+                        }
+                });
+                getContentPane().add(botaoIniciar);
+                botaoIniciar.setBounds(530, 10, 150, 32);
 
-        labelJogador2.setText("Jogador 2");
-        getContentPane().add(labelJogador2);
-        labelJogador2.setBounds(1000, 100, 57, 20);
+                botaoFinalizarPartida.setText("Finalizar");
+                getContentPane().add(botaoFinalizarPartida);
+                botaoFinalizarPartida.setBounds(530, 50, 150, 32);
 
-        pontosJogador1.setText("Pontuação");
-        getContentPane().add(pontosJogador1);
-        pontosJogador1.setBounds(180, 140, 61, 20);
+                labelJogador2.setText("Jogador 2");
+                getContentPane().add(labelJogador2);
+                labelJogador2.setBounds(1000, 100, 60, 20);
 
-        pontosJogador2.setText("Pontuação");
-        getContentPane().add(pontosJogador2);
-        pontosJogador2.setBounds(1000, 130, 61, 20);
+                pontosJogador1.setText("Pontuação");
+                getContentPane().add(pontosJogador1);
+                pontosJogador1.setBounds(180, 140, 65, 20);
 
-        jpanelCartas.setLayout(new java.awt.GridLayout(3, 5));
+                pontosJogador2.setText("Pontuação");
+                getContentPane().add(pontosJogador2);
+                pontosJogador2.setBounds(1000, 130, 65, 20);
 
-        azuchiCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/azuchi.png"))); // NOI18N
-        azuchiCarta.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                azuchiCartaActionPerformed(evt);
-            }
-        });
-        jpanelCartas.add(azuchiCarta);
+                jpanelCartas.setLayout(new java.awt.GridLayout(3, 5));
 
-        edoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/edo.png"))); // NOI18N
-        edoCarta.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edoCartaActionPerformed(evt);
-            }
-        });
-        jpanelCartas.add(edoCarta);
+                azuchiCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/azuchi.png"))); // NOI18N
+                azuchiCarta.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                azuchiCartaActionPerformed(evt);
+                        }
+                });
+                jpanelCartas.add(azuchiCarta);
 
-        gassantodaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/gassantoda.png"))); // NOI18N
-        gassantodaCarta.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gassantodaCartaActionPerformed(evt);
-            }
-        });
-        jpanelCartas.add(gassantodaCarta);
+                edoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/edo.png"))); // NOI18N
+                edoCarta.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                edoCartaActionPerformed(evt);
+                        }
+                });
+                jpanelCartas.add(edoCarta);
 
-        gifuCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/gifu.png"))); // NOI18N
-        gifuCarta.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gifuCartaActionPerformed(evt);
-            }
-        });
-        jpanelCartas.add(gifuCarta);
+                gassantodaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/gassantoda.png"))); // NOI18N
+                gassantodaCarta.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                gassantodaCartaActionPerformed(evt);
+                        }
+                });
+                jpanelCartas.add(gassantodaCarta);
 
-        inuyamaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/inuyama.png"))); // NOI18N
-        jpanelCartas.add(inuyamaCarta);
+                gifuCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/gifu.png"))); // NOI18N
+                gifuCarta.addActionListener(new java.awt.event.ActionListener() {
+                        public void actionPerformed(java.awt.event.ActionEvent evt) {
+                                gifuCartaActionPerformed(evt);
+                        }
+                });
+                jpanelCartas.add(gifuCarta);
 
-        kasugayamaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kasugayama.png"))); // NOI18N
-        jpanelCartas.add(kasugayamaCarta);
+                inuyamaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/inuyama.png"))); // NOI18N
+                jpanelCartas.add(inuyamaCarta);
 
-        kitanoshoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kitanosho.png"))); // NOI18N
-        jpanelCartas.add(kitanoshoCarta);
+                kasugayamaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kasugayama.png"))); // NOI18N
+                jpanelCartas.add(kasugayamaCarta);
 
-        kiyosuCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kiyosu.png"))); // NOI18N
-        jpanelCartas.add(kiyosuCarta);
+                kitanoshoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kitanosho.png"))); // NOI18N
+                jpanelCartas.add(kitanoshoCarta);
 
-        kumamotoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kumamoto.png"))); // NOI18N
-        jpanelCartas.add(kumamotoCarta);
+                kiyosuCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kiyosu.png"))); // NOI18N
+                jpanelCartas.add(kiyosuCarta);
 
-        marugameCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/marugame.png"))); // NOI18N
-        jpanelCartas.add(marugameCarta);
+                kumamotoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/kumamoto.png"))); // NOI18N
+                jpanelCartas.add(kumamotoCarta);
 
-        matsumotoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/matsumoto.png"))); // NOI18N
-        jpanelCartas.add(matsumotoCarta);
+                marugameCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/marugame.png"))); // NOI18N
+                jpanelCartas.add(marugameCarta);
 
-        matsuyamaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/matsuyama.png"))); // NOI18N
-        jpanelCartas.add(matsuyamaCarta);
+                matsumotoCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/matsumoto.png"))); // NOI18N
+                jpanelCartas.add(matsumotoCarta);
 
-        odaniCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/odani.png"))); // NOI18N
-        odaniCarta.setToolTipText("");
-        jpanelCartas.add(odaniCarta);
+                matsuyamaCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/matsuyama.png"))); // NOI18N
+                jpanelCartas.add(matsuyamaCarta);
 
-        takahashiCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/takahashi.png"))); // NOI18N
-        jpanelCartas.add(takahashiCarta);
+                odaniCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/odani.png"))); // NOI18N
+                odaniCarta.setToolTipText("");
+                jpanelCartas.add(odaniCarta);
 
-        getContentPane().add(jpanelCartas);
-        jpanelCartas.setBounds(170, 180, 900, 580);
+                takahashiCarta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/takahashi.png"))); // NOI18N
+                jpanelCartas.add(takahashiCarta);
 
-        botaoFinalizarPartida.setText("Finalizar");
-        getContentPane().add(botaoFinalizarPartida);
-        botaoFinalizarPartida.setBounds(530, 50, 150, 32);
+                getContentPane().add(jpanelCartas);
+                jpanelCartas.setBounds(170, 180, 900, 580);
 
-        pack();
-        setLocationRelativeTo(null);
-    }// </editor-fold>//GEN-END:initComponents
+                pack();
+                setLocationRelativeTo(null);
+        }// </editor-fold>//GEN-END:initComponents
 
     private void botaoIniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoIniciarActionPerformed
 
@@ -237,29 +237,29 @@ public class Mesa extends javax.swing.JFrame implements Observador {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton azuchiCarta;
-    private javax.swing.JButton botaoFinalizarPartida;
-    private javax.swing.JButton botaoIniciar;
-    private javax.swing.JButton edoCarta;
-    private javax.swing.JButton gassantodaCarta;
-    private javax.swing.JButton gifuCarta;
-    private javax.swing.JButton inuyamaCarta;
-    private javax.swing.JPanel jpanelCartas;
-    private javax.swing.JButton kasugayamaCarta;
-    private javax.swing.JButton kitanoshoCarta;
-    private javax.swing.JButton kiyosuCarta;
-    private javax.swing.JButton kumamotoCarta;
-    private javax.swing.JLabel labelJogador1;
-    private javax.swing.JLabel labelJogador2;
-    private javax.swing.JButton marugameCarta;
-    private javax.swing.JButton matsumotoCarta;
-    private javax.swing.JButton matsuyamaCarta;
-    private javax.swing.JButton odaniCarta;
-    private javax.swing.JLabel pontosJogador1;
-    private javax.swing.JLabel pontosJogador2;
-    private javax.swing.JButton takahashiCarta;
-    // End of variables declaration//GEN-END:variables
+        // Variables declaration - do not modify//GEN-BEGIN:variables
+        private javax.swing.JButton azuchiCarta;
+        private javax.swing.JButton botaoFinalizarPartida;
+        private javax.swing.JButton botaoIniciar;
+        private javax.swing.JButton edoCarta;
+        private javax.swing.JButton gassantodaCarta;
+        private javax.swing.JButton gifuCarta;
+        private javax.swing.JButton inuyamaCarta;
+        private javax.swing.JPanel jpanelCartas;
+        private javax.swing.JButton kasugayamaCarta;
+        private javax.swing.JButton kitanoshoCarta;
+        private javax.swing.JButton kiyosuCarta;
+        private javax.swing.JButton kumamotoCarta;
+        private javax.swing.JLabel labelJogador1;
+        private javax.swing.JLabel labelJogador2;
+        private javax.swing.JButton marugameCarta;
+        private javax.swing.JButton matsumotoCarta;
+        private javax.swing.JButton matsuyamaCarta;
+        private javax.swing.JButton odaniCarta;
+        private javax.swing.JLabel pontosJogador1;
+        private javax.swing.JLabel pontosJogador2;
+        private javax.swing.JButton takahashiCarta;
+        // End of variables declaration//GEN-END:variables
 
 
 
