@@ -7,7 +7,9 @@ package controller;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import javax.swing.JOptionPane;
+import model.Dado;
 import model.Jogador;
 
 /**
@@ -17,6 +19,7 @@ import model.Jogador;
 public class Controle {
 
     private List<Observador> observadores = new ArrayList<>();
+    private List<ObservadorPopUp> observadoresPopUp = new ArrayList<>();
 
     public void addObservadores(Observador obs) {
 
@@ -65,6 +68,46 @@ public class Controle {
         for (Observador observadore : observadores) {
             observadore.notificarTelaIniciarJogo(jogador1,jogador2, pontosPlayer1, pontosPlayer2);
         }
+        
+    }
+
+    public void rolarDados() {
+       
+        Random rolagemDado = new Random();
+        
+        List<Dado> dados = new ArrayList();        
+        Dado daimioDado = new Dado();
+        Dado umEspadadaDado = new Dado();
+        Dado doisEspadaDado = new Dado();
+        Dado tresEspadaDado = new Dado();
+        Dado cavaleiroDado = new Dado();
+        Dado arcoDado = new Dado();
+        
+        
+        dados.add(daimioDado);
+        dados.add(umEspadadaDado);
+        dados.add(doisEspadaDado);
+        dados.add(tresEspadaDado);
+        dados.add(cavaleiroDado);
+        dados.add(arcoDado);
+        
+        
+        
+        daimioDado.setCaminhoImg("/img/dados/dado(1).png");
+        umEspadadaDado.setCaminhoImg("/img/dados/dado(2).png");
+        doisEspadaDado.setCaminhoImg("/img/dados/dado(3).png");
+        tresEspadaDado.setCaminhoImg("/img/dados/dado(4).png");
+        arcoDado.setCaminhoImg("/img/dados/dado(5).png");
+        cavaleiroDado.setCaminhoImg("/img/dados/dado(6).png");
+        
+        
+        for (int i = 0; i < 10; i++) {
+            
+        }
+        
+        
+        
+        
         
     }
 
