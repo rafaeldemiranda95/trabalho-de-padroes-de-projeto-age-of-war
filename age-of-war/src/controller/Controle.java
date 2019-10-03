@@ -75,7 +75,7 @@ public class Controle {
        
         Random rolagemDado = new Random();
         
-        List<Dado> dados = new ArrayList();        
+        List<Dado> dados = new ArrayList<Dado>();        
         Dado daimioDado = new Dado();
         Dado umEspadadaDado = new Dado();
         Dado doisEspadaDado = new Dado();
@@ -101,9 +101,7 @@ public class Controle {
         cavaleiroDado.setCaminhoImg("/img/dados/dado(6).png");
         
         
-        for (int i = 0; i < 10; i++) {
-            
-        }
+        
         
         
         
