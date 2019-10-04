@@ -10,7 +10,7 @@ package controller;
  * @author rafae
  */
 public interface Command {
-    void execute();
+        void execute();
 	void undo();
 	void redo();
 }

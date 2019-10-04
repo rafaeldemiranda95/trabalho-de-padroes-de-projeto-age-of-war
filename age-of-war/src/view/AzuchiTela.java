@@ -7,18 +7,21 @@
 package view;
 
 import controller.Controle;
+import controller.Observador;
 
 /**
  *
  * @author rafaeldemiranda
  */
-public class AzuchiTela extends javax.swing.JDialog {
+public class AzuchiTela extends javax.swing.JDialog implements Observador{
 
     /** Creates new form azuchiTela */
     Controle controle;
     public AzuchiTela(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        this.controle = new Controle();
+        this.controle.addObservadores(this);
     }
 
     /** This method is called from within the constructor to
@@ -161,5 +164,10 @@ public class AzuchiTela extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jpanelDados;
     // End of variables declaration//GEN-END:variables
+
+    @Override
+    public void notificarTelaIniciarJogo(String jogador1, String jogador2, int pontosPlayer1, int pontosPlayer2) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 }

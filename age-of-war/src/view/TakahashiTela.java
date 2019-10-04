@@ -6,12 +6,13 @@
 package view;
 
 import controller.Controle;
+import controller.Observador;
 
 /**
  *
  * @author rafaeldemiranda
  */
-public class TakahashiTela extends javax.swing.JDialog {
+public class TakahashiTela extends javax.swing.JDialog implements Observador {
 
         /**
          * Creates new form TakahashiTela
@@ -20,6 +21,8 @@ public class TakahashiTela extends javax.swing.JDialog {
         public TakahashiTela(java.awt.Frame parent, boolean modal) {
                 super(parent, modal);
                 initComponents();
+                        this.controle = new Controle();
+                        this.controle.addObservadores(this);
         }
 
         /**
@@ -161,4 +164,9 @@ public class TakahashiTela extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jpanelDados;
     // End of variables declaration//GEN-END:variables
+
+    @Override
+    public void notificarTelaIniciarJogo(String jogador1, String jogador2, int pontosPlayer1, int pontosPlayer2) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
