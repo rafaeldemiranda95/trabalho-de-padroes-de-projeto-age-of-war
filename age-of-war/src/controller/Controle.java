@@ -75,8 +75,11 @@ public class Controle {
        
         Random rolagemDado = new Random();
         
-        List<Dado> dados = new ArrayList<Dado>();        
+        List<Dado> dados = new ArrayList<Dado>();  
+        dados.add(new Dado());
+        
         Dado daimioDado = new Dado();
+        
         Dado umEspadadaDado = new Dado();
         Dado doisEspadaDado = new Dado();
         Dado tresEspadaDado = new Dado();

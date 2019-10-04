@@ -7,6 +7,7 @@ package view;
 
 import controller.Controle;
 import controller.Observador;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 /**
@@ -313,7 +314,9 @@ public class Mesa extends javax.swing.JFrame implements Observador {
 
     private void botaoRolarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoRolarActionPerformed
         // TODO add your handling code here:
-        
+
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/dados/2-espada.png")));
         
        controle.rolarDados(); 
         

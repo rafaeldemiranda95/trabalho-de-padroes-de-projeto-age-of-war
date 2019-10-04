@@ -12,9 +12,9 @@ package model;
 public class Dado {
   
     
-//    String [] posicaoDado = new String [6];
+    private static String [] posicaoDado = new String []{"Daimio", "UmaEspada"};
   
-    
+    private int lado;
     private String caminhoImg;
     private String nome;
 
