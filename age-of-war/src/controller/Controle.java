@@ -19,7 +19,7 @@ import model.Jogador;
 public class Controle {
 
     private List<Observador> observadores = new ArrayList<>();
-    private List<ObservadorPopUp> observadoresPopUp = new ArrayList<>();
+    
 
     public void addObservadores(Observador obs) {
 
@@ -43,7 +43,7 @@ public class Controle {
         Jogador player2 = new Jogador();
         
         player1.setVezJogada(true);
-        player1.setVezJogada(false);
+        player2.setVezJogada(false);
         
         player1.setNome(jogador1);
         player2.setNome(jogador2); 

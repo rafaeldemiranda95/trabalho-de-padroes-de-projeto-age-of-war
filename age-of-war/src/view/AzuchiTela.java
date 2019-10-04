@@ -41,6 +41,10 @@ public class AzuchiTela extends javax.swing.JDialog implements Observador{
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         botaoRolar = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        azuchiLinha1 = new javax.swing.JButton();
+        azuchiLinha2 = new javax.swing.JButton();
+        azuchiLinha3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -79,11 +83,32 @@ public class AzuchiTela extends javax.swing.JDialog implements Observador{
         });
         jpanelDados.add(botaoRolar);
 
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cartas/azuchi.png"))); // NOI18N
+
+        azuchiLinha1.setText("Linha 1");
+        azuchiLinha1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                azuchiLinha1ActionPerformed(evt);
+            }
+        });
+
+        azuchiLinha2.setText("Linha 2");
+
+        azuchiLinha3.setText("Linha 3");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1050, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(144, 144, 144)
+                .addComponent(jLabel7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(azuchiLinha1)
+                    .addComponent(azuchiLinha2)
+                    .addComponent(azuchiLinha3))
+                .addContainerGap(684, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)
@@ -92,12 +117,22 @@ public class AzuchiTela extends javax.swing.JDialog implements Observador{
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(73, 73, 73)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(azuchiLinha1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(azuchiLinha2)
+                        .addGap(24, 24, 24)
+                        .addComponent(azuchiLinha3))
+                    .addComponent(jLabel7))
+                .addContainerGap(408, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addGap(0, 265, Short.MAX_VALUE)
                     .addComponent(jpanelDados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+                    .addGap(0, 265, Short.MAX_VALUE)))
         );
 
         pack();
@@ -110,6 +145,10 @@ public class AzuchiTela extends javax.swing.JDialog implements Observador{
         controle.rolarDados();
 
     }//GEN-LAST:event_botaoRolarActionPerformed
+
+    private void azuchiLinha1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_azuchiLinha1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_azuchiLinha1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -155,6 +194,9 @@ public class AzuchiTela extends javax.swing.JDialog implements Observador{
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton azuchiLinha1;
+    private javax.swing.JButton azuchiLinha2;
+    private javax.swing.JButton azuchiLinha3;
     private javax.swing.JButton botaoRolar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -162,6 +204,7 @@ public class AzuchiTela extends javax.swing.JDialog implements Observador{
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jpanelDados;
     // End of variables declaration//GEN-END:variables
 
