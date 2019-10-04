@@ -263,7 +263,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/1-espada.png"/>
+              <Image iconType="3" name="/img/dados/UmaEspada.png"/>
             </Property>
           </Properties>
         </Component>
@@ -271,7 +271,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/2-espada.png"/>
+              <Image iconType="3" name="/img/dados/DuasEspada.png"/>
             </Property>
           </Properties>
         </Component>
@@ -279,7 +279,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/3-espada.png"/>
+              <Image iconType="3" name="/img/dados/TresEspada.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
@@ -288,7 +288,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/arco.png"/>
+              <Image iconType="3" name="/img/dados/Arco.png"/>
             </Property>
           </Properties>
         </Component>
@@ -296,7 +296,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/cavaleiro.png"/>
+              <Image iconType="3" name="/img/dados/Cavaleiro.png"/>
             </Property>
           </Properties>
         </Component>
@@ -304,7 +304,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/daimio.png"/>
+              <Image iconType="3" name="/img/dados/Daimio.png"/>
             </Property>
           </Properties>
         </Component>

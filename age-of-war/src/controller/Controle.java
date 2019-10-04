@@ -78,30 +78,8 @@ public class Controle {
         List<Dado> dados = new ArrayList<Dado>();  
         dados.add(new Dado());
         
-        Dado daimioDado = new Dado();
         
-        Dado umEspadadaDado = new Dado();
-        Dado doisEspadaDado = new Dado();
-        Dado tresEspadaDado = new Dado();
-        Dado cavaleiroDado = new Dado();
-        Dado arcoDado = new Dado();
-        
-        
-        dados.add(daimioDado);
-        dados.add(umEspadadaDado);
-        dados.add(doisEspadaDado);
-        dados.add(tresEspadaDado);
-        dados.add(cavaleiroDado);
-        dados.add(arcoDado);
-        
-        
-        
-        daimioDado.setCaminhoImg("/img/dados/dado(1).png");
-        umEspadadaDado.setCaminhoImg("/img/dados/dado(2).png");
-        doisEspadaDado.setCaminhoImg("/img/dados/dado(3).png");
-        tresEspadaDado.setCaminhoImg("/img/dados/dado(4).png");
-        arcoDado.setCaminhoImg("/img/dados/dado(5).png");
-        cavaleiroDado.setCaminhoImg("/img/dados/dado(6).png");
+
         
         
         
@@ -110,6 +88,17 @@ public class Controle {
         
         
         
+    }
+    
+    
+    
+    public void verificarJogada(){
+    
+    
+        
+        
+        
+    
     }
 
 }

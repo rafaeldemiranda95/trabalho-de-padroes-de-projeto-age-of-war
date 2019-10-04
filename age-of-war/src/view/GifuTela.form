@@ -27,13 +27,7 @@
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="900" pref="900" max="-2" attributes="0"/>
-                          <Component id="botaoRolar" min="-2" pref="150" max="-2" attributes="0"/>
-                      </Group>
-                      <Component id="jpanelDados" min="-2" pref="910" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="jpanelDados" min="-2" pref="930" max="-2" attributes="0"/>
                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -45,13 +39,7 @@
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
-                          <Component id="botaoRolar" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Component id="jpanelDados" min="-2" pref="130" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="jpanelDados" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -59,14 +47,6 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="botaoRolar">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Rolar"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botaoRolarActionPerformed"/>
-      </Events>
-    </Component>
     <Container class="javax.swing.JPanel" name="jpanelDados">
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
@@ -78,7 +58,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/1-espada.png"/>
+              <Image iconType="3" name="/img/dados/UmaEspada.png"/>
             </Property>
           </Properties>
         </Component>
@@ -86,7 +66,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/2-espada.png"/>
+              <Image iconType="3" name="/img/dados/DuasEspada.png"/>
             </Property>
           </Properties>
         </Component>
@@ -94,7 +74,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/3-espada.png"/>
+              <Image iconType="3" name="/img/dados/TresEspada.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
@@ -103,7 +83,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/arco.png"/>
+              <Image iconType="3" name="/img/dados/Arco.png"/>
             </Property>
           </Properties>
         </Component>
@@ -111,7 +91,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/cavaleiro.png"/>
+              <Image iconType="3" name="/img/dados/Cavaleiro.png"/>
             </Property>
           </Properties>
         </Component>
@@ -119,9 +99,17 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/img/dados/daimio.png"/>
+              <Image iconType="3" name="/img/dados/Daimio.png"/>
             </Property>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="botaoRolar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rolar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botaoRolarActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>

@@ -10,20 +10,29 @@ package model;
  * @author rafae
  */
 public class Dado {
-  
-    
-    private static String [] posicaoDado = new String []{"Daimio", "UmaEspada"};
-  
+
+    private static String[] posicaoDado = new String[]{"Daimio", "UmaEspada", "DuasEspada", "TresEspada", "Arco", "Cavaleiro"};
+
     private int lado;
     private String caminhoImg;
-    private String nome;
-
-    public Dado(String caminhoImg, String nome) {
-        this.caminhoImg = caminhoImg;
-        this.nome = nome;
-    }
 
     public Dado() {
+    }
+
+    public static String[] getPosicaoDado() {
+        return posicaoDado;
+    }
+
+    public static void setPosicaoDado(String[] posicaoDado) {
+        Dado.posicaoDado = posicaoDado;
+    }
+
+    public int getLado() {
+        return lado;
+    }
+
+    public void setLado(int lado) {
+        this.lado = lado;
     }
 
     public String getCaminhoImg() {
@@ -34,16 +43,4 @@ public class Dado {
         this.caminhoImg = caminhoImg;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-    
-    
-    
-    
-    
 }
