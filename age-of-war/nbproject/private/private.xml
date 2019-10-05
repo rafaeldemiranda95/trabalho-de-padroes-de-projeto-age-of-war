@@ -2,6 +2,29 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/KasugayamaTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/KitanoshoTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/KumamotoTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/TakahashiTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/model/Jogador.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/MarugameTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/controller/MacroComand.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/InuyamaTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/MatsumotoTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/KiyosuTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/GifuTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/controller/Command.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/model/Carta.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/AzuchiTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/GassantodaTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/controller/Controle.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/MatsuyamaTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/EdoTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/model/Dado.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/OdaniTela.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/view/Mesa.java</file>
+            <file>file:/C:/Users/rafae/Desktop/trabalho-de-padroes-de-projeto-age-of-war/trabalho-de-padroes-de-projeto-age-of-war/age-of-war/src/controller/CommandInvoker.java</file>
+        </group>
     </open-files>
 </project-private>
